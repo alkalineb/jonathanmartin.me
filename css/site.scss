@@ -1,0 +1,31 @@
+---
+---
+header {
+    background-image: url('/images/background-large.png');
+    background-position: center;
+    height: 400px;
+    
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px;
+    color: white;
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+
+.navbar-brand,
+.navbar-nav.navbar-right {
+    background-color: #ff6a00;
+    color: white !important;
+}
+
+.navbar-nav.navbar-right a {
+    color: white !important;
+    
+    &:hover {
+        background-color: #ff9900;
+    }
+}
